@@ -1,0 +1,85 @@
+.cp{
+    border: solid 3px;
+    width: 80%;
+    text-align: center;
+    position: relative;
+    left: 10%;
+    background-color: turquoise;
+    
+}
+button{
+    background-color: transparent;
+    width: 60%;
+    cursor: pointer;
+}
+
+.clotures{
+    text-align: center;
+    position: relative;
+    left: 8.5%;
+    background-color: rgb(245, 226, 192);
+}
+
+u{
+    box-shadow: 10px 10px 10px grey;
+}
+
+
+.bgimg{
+
+    filter: blur(8px);
+  -webkit-filter: blur(3px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 5cm;
+    height: 1cm;
+    position: relative;
+    left: 12cm;
+    border-color: #1f69ec;
+  
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  
+  .button:hover{
+    background-color: #ffffff;
+    border: 2px solid #1f69ec;
+    box-shadow: 10px 5px 5px #719fee;
+    color: #1f69ec;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  
+  body{
+    background-color: gray;
+  }
+
+
+  .contacte{
+    width: 60%;
+    position: relative;
+    left: 9cm;
+    bottom: 13%;
+    text-align: center;
+  }
+  
+  .Rsx{
+    height: 20px;
+    width: 20px;
+  }

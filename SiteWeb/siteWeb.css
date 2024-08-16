@@ -1,0 +1,103 @@
+.barreMenue{
+    width: 100%;
+    position: relative;
+    bottom: 100%;
+    border-color: red;
+}
+
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+.bgimg{
+
+    background-image: url(https://www.amenagement-jardin.net/wp-content/uploads/2020/10/Photo-cloture-en-beton-1.jpg);
+
+    filter: blur(8px);
+  -webkit-filter: blur(3px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contacte{
+  position: relative;
+  bottom: 5%;
+}
+
+.button{
+  background-color: white;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  width: 5cm;
+  height: 1cm;
+  position: relative;
+  left: 12cm;
+  border-color: black;
+
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.button:hover{
+  background-color: #ffffff;
+  border: 2px solid #1f69ec;
+  box-shadow: 10px 5px 5px #719fee;
+  color: #1f69ec;
+  text-align: center;
+  font-size: 22px;
+}
+
+.contacte{
+  width: 60%;
+  position: relative;
+  left: 9cm;
+  bottom: 13%;
+  text-align: center;
+}
+
+.Rsx{
+  height: 20px;
+  width: 20px;
+}
+
+.diapo{
+  width: auto;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  border: 3px solid black;
+  box-shadow: 15px 15px 5px grey;
+}
+
+.h2{
+  position: absolute;
+  left: 5%;
+  bottom: 15%;
+  text-align: center;
+  height: 300px;
+  width: 600px;
+}
+h3,h2{
+  color: white;
+}
+
+.nom{
+  position: absolute;
+  bottom: 70%;
+  left: 10%;
+  font-size: 500% ;
+  color: goldenrod;
+}

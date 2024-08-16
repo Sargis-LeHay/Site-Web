@@ -1,0 +1,105 @@
+body{
+    background-image: url(https://samse-drupal-prod.samse.fr/sites/default/files/pictures/pose_de_paves_gris_hydrofuges.jpg);
+    height: 100%;
+    background-size: 105%;
+}
+
+.bgimg{
+
+    filter: blur(8px);
+  -webkit-filter: blur(3px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 5cm;
+    height: 1cm;
+    position: relative;
+    left: 12cm;
+    border-color: #1f69ec;
+  
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  
+  .button:hover{
+    background-color: #ffffff;
+    border: 2px solid #1f69ec;
+    box-shadow: 10px 5px 5px #719fee;
+    color: #1f69ec;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .contacte{
+    width: 60%;
+    position: absolute;
+    left: 8cm;
+    bottom: 4%;
+    text-align: center;
+  }
+
+  .Rsx{
+    height: 20px;
+    width: 20px;
+  }
+
+
+  .text1{
+    height: 300px;
+    width: 600px;
+    position: absolute;
+    bottom: 53%;
+    text-align: center;
+  }
+
+  .text2{
+    height: 300px;
+    width: 600px;
+    position: absolute;
+    left: 60%;
+    bottom: 12%;
+    text-align: center;
+  }
+
+  .img2{
+    height: 300px;
+    width: 600px;
+    position: absolute;
+    bottom: 12%;
+  }
+
+  .img1{
+    height: 300px;
+    width: 600px;
+    position: absolute;
+    bottom: 53%;
+    left: 60%;
+  }
+
+  .pa{
+    position: relative;
+    bottom: 34.5%;
+    left: 50%;
+  }
+
+  .txt1{
+    background-color: white;
+  }
+
+  .txt2{
+    background-color: white;
+  }
